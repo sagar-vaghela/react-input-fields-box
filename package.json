@@ -2,7 +2,6 @@
   "name": "react-input-fields-box",
   "version": "1.0.0",
   "description": "Made with create-react-library",
-  "author": "sagar-vaghela",
   "license": "MIT",
   "repository": "sagar-vaghela/react-input-fields-box",
   "main": "dist/index.js",
@@ -11,6 +10,17 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "react",
+    "input",
+    "fields",
+    "box"
+  ],
+  "author": {
+    "name": "sagar-vaghela",
+    "email": "sagar19vaghela.sv@gmail.com"
+  },
+  "homepage": "https://github.com/sagar-vaghela/react-input-fields-box",
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
