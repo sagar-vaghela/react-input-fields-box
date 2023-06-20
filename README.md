@@ -9,20 +9,25 @@
 ```bash
 npm install --save react-input-fields-box
 ```
-
+## Run
+npm start
 ## Usage
+node = 16
 
+## Demo
 ```jsx
-import React, { Component } from 'react'
-
+import React from 'react'
 import MyComponent from 'react-input-fields-box'
 import 'react-input-fields-box/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
+const MyComponent = () => {
+  const [value, setValue] = React.useState('')
+  const onChange = (e) => {
+    setValue(e.target.value)
   }
+  return <ExampleComponent onChange={onChange} value={value} />
 }
+export default MyComponent
+
 ```
 
 ## License
